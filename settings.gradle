@@ -1,0 +1,1 @@
+include ':app', ':com.commonsware.cwac.camera'

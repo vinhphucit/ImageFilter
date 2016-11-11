@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fontPath" format="string" />
+    <attr name="pause_drawable" format="reference" />
+    <attr name="play_drawable" format="reference" />
+    <attr name="show_love_and_comment" format="boolean" />
+    <attr name="album_art_drawable" format="reference" />
+    <attr name="size_type" format="integer" />
+    <attr name="adjust_margins" format="boolean" />
+
+
+</resources>

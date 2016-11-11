@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/filter_relative_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="5dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/ivEffectPreview"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:clickable="false"
+        android:focusable="false"
+        app:riv_border_color="@color/mask_bg"
+        app:riv_border_width="2dp"
+        app:riv_corner_radius="2dp"
+        app:riv_oval="false"
+        android:src="@drawable/app_icon_splash" />
+
+    <TextView
+        android:id="@+id/tvEffectPreview"
+        android:layout_width="67dp"
+        android:layout_margin="1dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivEffectPreview"
+        android:layout_centerHorizontal="true"
+        android:background="@color/filter_title_selected_bg50"
+        android:gravity="center"
+        android:text="rrrrr"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+</RelativeLayout>

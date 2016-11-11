@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+    <fragment
+    android:id="@+id/camera_preview"
+    android:name="com.roxwin.imagefilter.fragments.FrontCameraFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+    <!--<android.opengl.GLSurfaceView-->
+        <!--android:id="@+id/surfaceView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@+id/bar" />-->
+
+</FrameLayout>
